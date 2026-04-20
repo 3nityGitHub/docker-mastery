@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: YOUR_DOCKERHUB_USERNAME/talium-care-api
+          images: taliumt/talium-care-api
           tags: |
             type=sha,prefix=sha-
             type=raw,value=latest
